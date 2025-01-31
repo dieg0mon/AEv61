@@ -31,56 +31,17 @@ class Deporte {
 
 class Futbol extends Deporte {
     
-    private $fechaEnvasado;
     
-
-    public function __construct($fechaCaducidad, $numerolote, $fechaEnvasado, $paisOrigen){
-        parent::__construct($fechaCaducidad, $numerolote);
-        $this->fechaEnvasado = $fechaEnvasado;
-        $this->paisOrigen = $paisOrigen;
-    }
-
-    public function showInfo() {
-        $infoProdInicial = parent::showInfo();
-        return "{$infoProdInicial} Fecha de envasado {$this->fechaEnvasado}, y pais de origen: {$this->paisOrigen}<br>";
-    }
-
 }
 
 class Baloncesto extends Deporte {
     
-    private $fechaEnvasado;
-    
-
-    public function __construct($fechaCaducidad, $numerolote, $fechaEnvasado, $paisOrigen){
-        parent::__construct($fechaCaducidad, $numerolote);
-        $this->fechaEnvasado = $fechaEnvasado;
-        $this->paisOrigen = $paisOrigen;
-    }
-
-    public function showInfo() {
-        $infoProdInicial = parent::showInfo();
-        return "{$infoProdInicial} Fecha de envasado {$this->fechaEnvasado}, y pais de origen: {$this->paisOrigen}<br>";
-    }
 
 }
 
 class Rugby extends Deporte {
     
-    private $fechaEnvasado;
     
-
-    public function __construct($fechaCaducidad, $numerolote, $fechaEnvasado, $paisOrigen){
-        parent::__construct($fechaCaducidad, $numerolote);
-        $this->fechaEnvasado = $fechaEnvasado;
-        $this->paisOrigen = $paisOrigen;
-    }
-
-    public function showInfo() {
-        $infoProdInicial = parent::showInfo();
-        return "{$infoProdInicial} Fecha de envasado {$this->fechaEnvasado}, y pais de origen: {$this->paisOrigen}<br>";
-    }
-
 }
 
 ?>
